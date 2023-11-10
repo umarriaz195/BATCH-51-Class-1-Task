@@ -1,0 +1,15 @@
+var dinnerGuestList = ["Ali", "khan", "adnnan", "Umer", "raheem", "noman"];
+console.log("I can invite only two people for dinner.");
+console.log("Sorry ".concat(dinnerGuestList[5], ", I can't invite you to dinner."));
+dinnerGuestList.pop();
+console.log("Sorry ".concat(dinnerGuestList[4], ", I can't invite you to dinner."));
+dinnerGuestList.pop();
+console.log("Sorry ".concat(dinnerGuestList[3], ", I can't invite you to dinner."));
+dinnerGuestList.pop();
+console.log("Sorry ".concat(dinnerGuestList[2], ", I can't invite you to dinner."));
+dinnerGuestList.pop();
+console.log("You're still invited to dinner, ".concat(dinnerGuestList[0], "!"));
+console.log("You're still invited to dinner, ".concat(dinnerGuestList[1], "!"));
+dinnerGuestList.pop();
+dinnerGuestList.pop();
+console.log(dinnerGuestList);
